@@ -1,5 +1,9 @@
 ## Pho Phai Style
 
+<script type="text/javascript"
+   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js">
+</script>
+
 * Notations:
   - C : Content image
   - S : Style image
