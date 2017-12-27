@@ -9,7 +9,8 @@
   - H : Height of an image
   - W : Weight of an image
   - C : Number of channel ( 3 - RGB )
-  - $\lambda^{[l]}$ are given in `STYLE_LAYERS`.
+  - ![\Large \lambda^{[l]}](https://latex.codecogs.com/svg.latex?%5Clambda%5E%7B%5Bl%5D%7D)
+\lambda^{[l]} are given in `STYLE_LAYERS`.
 * The content cost function: $J_{content}(C,G)$
 * The style cost function:  $J_{style}(S,G)$
 * Integrate above cost functions:  $J(G) = \alpha J_{content}(C,G) + \beta J_{style}(S,G)$
