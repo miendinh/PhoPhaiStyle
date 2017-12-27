@@ -12,9 +12,13 @@
   - $\lambda^{[l]}$ are given in `STYLE_LAYERS`.
 * The content cost function: $J_{content}(C,G)$
 * The style cost function:  $J_{style}(S,G)$
-* Integrate above cost functions:  $J(G) = \alpha J_{content}(C,G) + \beta J_{style}(S,G)$
+* Integrate above cost functions:  $ J(G) = \alpha J_{content}(C,G) + \beta J_{style}(S,G) $
 
-$$J_{content}(C,G) =  \frac{1}{4 \times n_H \times n_W \times n_C}\sum_{ \text{all entries}} (a^{(C)} - a^{(G)})^2\tag{1}$$
+
+\begin{equation}
+J_{content}(C,G) =  \frac{1}{4 \times n_H \times n_W \times n_C}\sum_{ \text{all entries}} (a^{(C)} - a^{(G)})^2\tag{1}
+\end{equation}
+
 
 $$J_{style}^{[l]}(S,G) = \frac{1}{4 \times {n_C}^2 \times (n_H \times n_W)^2} \sum _{i=1}^{n_C}\sum_{j=1}^{n_C}(G^{(S)}_{ij} - G^{(G)}_{ij})^2\tag{2}$$
 
