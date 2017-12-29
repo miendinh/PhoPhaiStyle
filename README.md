@@ -21,6 +21,7 @@
 
 ![$$J(G) = \alpha J_{content}(C,G) + \beta J_{style}(S,G)$$](https://latex.codecogs.com/gif.latex?J(G)&space;=&space;\alpha&space;J_{content}(C,G)&space;&plus;&space;\beta&space;J_{style}(S,G))
 
+
 * VGG19 Model Summary
 
 | #Layer   |  Name   |      Weight  Dimension  |
