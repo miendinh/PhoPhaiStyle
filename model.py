@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import numpy as np 
 import pandas as pd
 
@@ -16,3 +17,10 @@ C - Content
 S - Style
 
 # 
+=======
+from keras import backend as K
+
+target_image = K.constant()
+
+//@Page 290
+>>>>>>> 2d1402601b386eb88673346048d09a6e8b7e0954
